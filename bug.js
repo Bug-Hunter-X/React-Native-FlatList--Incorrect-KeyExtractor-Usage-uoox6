@@ -1,0 +1,1 @@
+In React Native, when working with FlatList and using the `keyExtractor` prop, a common mistake is to use the index as the key. This can lead to unexpected behavior, especially when data is inserted, deleted or reordered.  The key should be a unique identifier for each item in the data array, not the index.
