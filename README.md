@@ -1,0 +1,1 @@
+This repository demonstrates a common error in React Native's FlatList component: using the index as the `keyExtractor`.  The `bug.js` file shows the problematic code, while `bugSolution.js` provides the corrected implementation.  Using the index as a key can lead to performance issues and unexpected behavior when the data array is modified.
